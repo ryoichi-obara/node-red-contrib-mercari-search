@@ -9,8 +9,12 @@
   "bugs": {
     "url": "https://github.com/ryoichi-obara/node-red-contrib-mercari-search/issues"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "cheerio-httpcli": "^0.7.4"
+  },
+  "devDependencies": {
+    "node-red-node-test-helper": "^0.2.3"
+  },
   "homepage": "https://github.com/ryoichi-obara/node-red-contrib-mercari-search#readme",
   "keywords": [],
   "license": "MIT",
