@@ -1,0 +1,42 @@
+<script type="text/javascript">
+
+    RED.nodes.registerType('mercari-search', {
+        category: 'function',
+        color: '#fdd0a2',
+        defaults: {
+            name: { value: '' },
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: 'search_24.svg',
+        label: function() {
+            return this.name || 'mercari-search';
+        },
+    });
+
+</script>
+
+<script type="text/html" data-template-name="mercari-search">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> 名前</label>
+        <input type="text" id="node-input-name" placeholder="名前">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="mercari-search">
+    <p>指定のキーワードでmercariを検索します。</p>
+
+    <h3>入力</h3>
+
+    <dl class="message-properties">
+        <dt>payload <span class="property-type">string | buffer</span></dt>
+        <dd>検索キーワード</dd>
+    </dl>
+    
+    <h3>Outputs</h3>
+
+    <dl class="message-properties">
+        <dt>payload <span class="property-type">array</span></dt>
+        <dd>検索結果</dd>
+    </dl>
+</script>
