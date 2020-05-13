@@ -1,17 +1,25 @@
 {
   "name": "node-red-contrib-mercari-search",
+  "description": "Node-RED node for mercari search",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "cheerio-httpcli": "^0.7.4",
-    "node-red-node-test-helper": "^0.2.3"
+  "author": {
+    "name": "ryoichi-obara",
+    "url": "https://ryoichi0102.hatenablog.com/"
   },
+  "bugs": {
+    "url": "https://github.com/ryoichi-obara/node-red-contrib-mercari-search/issues"
+  },
+  "dependencies": {},
   "devDependencies": {},
+  "homepage": "https://github.com/ryoichi-obara/node-red-contrib-mercari-search#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryoichi-obara/node-red-contrib-mercari-search.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  }
 }
