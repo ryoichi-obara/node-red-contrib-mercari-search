@@ -16,7 +16,9 @@
     "node-red-node-test-helper": "^0.2.3"
   },
   "homepage": "https://github.com/ryoichi-obara/node-red-contrib-mercari-search#readme",
-  "keywords": [],
+  "keywords": [
+    "node-red"
+  ],
   "license": "MIT",
   "main": "index.js",
   "node-red": {
