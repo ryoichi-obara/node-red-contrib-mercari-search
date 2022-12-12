@@ -13,7 +13,7 @@
     "cheerio-httpcli": "^0.7.4"
   },
   "devDependencies": {
-    "node-red-node-test-helper": "^0.2.3"
+    "node-red-node-test-helper": "^0.3.0"
   },
   "homepage": "https://github.com/ryoichi-obara/node-red-contrib-mercari-search#readme",
   "keywords": [
